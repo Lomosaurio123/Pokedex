@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    border: none;
+    background-image: url('../../assets/Logo.png');
+}
+
+.pokedex {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10vw;
+    width: 1000px;
+    height: 600px;
+}
+
+.section1 {
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3);
+    background-color: #A93226;
+    width: 50%;
+    height: 100%;
+    border-radius: 80px 0 0 0;
+}
+
+.section2 {
+    width: 50%;
+    height: 100%;
+    background-color: #E74C3C;
+}
+
+.img {
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #ECF0F1;
+    border-radius: 30px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.img-content {
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+.name {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 420px;
+    height: 60px;
+    background-color: #ECF0F1;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #566573;
+    border-radius: 30px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.buscar {
+    text-align: center;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.boton {
+    margin-left: 10px;
+    z-index: auto;
+    width: 100px;
+    height: 35px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #f4f4f4;
+    background-color: #566573;
+    border-color: #f4f4f4;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.boton:hover {
+    background-color: #334AFF;
+    color: #F4FEFF;
+    transition: 300ms;
+}
+
+.info {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 400px;
+    height: 350px;
+    background-color: #17202A;
+    border-radius: 30px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3);
+    color: green;
+}
+
+.bar {
+    margin-left: 20px;
+}

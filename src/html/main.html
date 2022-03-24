@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="pokedex">
+
+        <div class="section1">
+            <div class="img">
+                <img src="../../assets/x.png" alt="Pokemon" width="150px" height="150px" id="pokeImg" class="img-content">
+            </div>
+            <div class="name" id="names">
+                <p>Name</p>
+            </div>
+        </div>
+
+        <div class="section2">
+            <div class="search">
+                <input type="text" name="pokeName" id="pokeName" placeholder="pikachu/id" class="buscar">
+                <button onclick="fetchPokemon()" class="boton"> Buscar Pokemon </button>
+            </div>
+            <div class="info">
+                <div class="info-data">
+                    <p>Tipo: <strong id="pokeTipo"></strong></p>
+                    <p>Estadisticas: </p>  
+
+                    <div id="estadisticas">
+                        
+                    </div>
+
+                    <p>Movimientos: <strong id="pokeMove"></strong></p>
+
+                </div>
+            </div> 
+        </div>
+
+    </section>
+
+</body>
+<footer>
+    <script src="../js/pokeapi.js"></script>
+</footer>
+</html>
